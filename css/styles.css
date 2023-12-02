@@ -1,34 +1,81 @@
+/* Base styles---------------- */
 body {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   color: #434455;
   background-color: #fff;
 }
-
-/* --------------------- */
-/* logo nav */
-.logo {
+/* background header */
+.header-navigation {
+  background-color: #fff;
+}
+/* background:hero+foooter */
+.hero,
+.footer {
+  background-color: #2e2f42;
+}
+/* --------- */
+button {
+  cursor: pointer;
+}
+/* Reset style------------------ */
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+/* common styles----------------- */
+/* logo nav +footer  */
+.nav-logo,
+.footer-logo {
   color: #4d5ae5;
   font-family: Raleway;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 1.16; /* 116.667% */
-  letter-spacing: 0.54px;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .logo-dark {
   color: #2e2f42;
 }
-/* ------------------- */
+.logo-light {
+  color: #f4f4fd;
+}
+/* h2 style */
+.title-medium {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+/* h3 style */
+.features-title,
+.team-title {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
+}
+/* (p)articles styles */
+.article-work,
+.article-team,
+.article-potfolio {
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+/* ------------------------------ */
 /* page navigation */
 .nav-page {
   color: #2e2f42;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 1, 5;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .nav-page:hover,
 .nav-page:focus {
@@ -38,38 +85,42 @@ body {
 /* address */
 .address-link {
   color: #434455;
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1, 5;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .address-link:hover,
 .address-link:focus {
   color: #404bbf;
 }
+/* section hero----------- */
+.hero-title {
+  color: #fff;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07; /* 107.143% */
+  letter-spacing: 0.02em;
+}
+.hero-btn {
+  background-color: #4d5ae5;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
+}
+.hero-btn-text {
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
+}
 
 /* footer */
-.logo {
-  color: #4d5ae5;
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1, 16; /* 116.667% */
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-}
-.logo-light {
-  color: #f4f4fd;
-}
-.aside {
+
+.footer-aside {
   color: #f4f4fd;
   font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1, 5; /* 150% */
-  letter-spacing: 0.32px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
 }
