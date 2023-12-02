@@ -116,7 +116,7 @@ a {
 .hero-btn:focus {
   background-color: #404bbf;
 }
-.hero-btn-text {
+.btn-text {
   color: #ffffff;
   font-weight: 500;
   line-height: 1.5; /* 150% */
