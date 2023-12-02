@@ -113,17 +113,15 @@ a {
   letter-spacing: 0.02em;
 }
 .hero-btn {
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
   background-color: #4d5ae5;
 }
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #404bbf;
-}
-.btn-text {
-  color: #ffffff;
-  font-weight: 500;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.04em;
 }
 /* ul features-list */
 .features-list {
