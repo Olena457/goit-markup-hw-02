@@ -89,7 +89,9 @@ a {
 }
 /* ---------------- */
 /* address */
-
+.address {
+  font-style: normal;
+}
 .address-link {
   color: #434455;
   font-size: 16px;
@@ -126,7 +128,7 @@ a {
   background-color: #ffffff;
 }
 /* page portfolio */
-.page-porfolio {
+.page-portfolio {
   background-color: #ffffff;
 }
 
